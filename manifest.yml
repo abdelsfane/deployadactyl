@@ -1,0 +1,6 @@
+applications:
+- name: test-deployadactyl
+  env:
+    # uncomment the following lines and fill in `your_username` and `your_password`
+    CF_USERNAME: myuser
+    CF_PASSWORD: mypassword

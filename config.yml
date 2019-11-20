@@ -1,0 +1,9 @@
+---
+environments:
+  - name: preproduction
+    domain: run.pivotal.io
+    foundations:
+    - https://api.run.pivotal.io
+    authenticate: false
+    skip_ssl: true
+    instances: 2

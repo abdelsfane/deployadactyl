@@ -1,0 +1,16 @@
+---
+environments:
+  - name: sandbox
+    service_now_endpoint: https://allstateuat.service-now.com
+    domain: platformtest.allstate.com
+    authenticate: false
+    skip_ssl: true
+    instances: 1
+    rollback_enabled: true
+    foundations:
+    - https://api.cf.sandbox-mpn.ro98.allstate.com
+    - https://api.cf.sandbox-mpn.ro99.allstate.com
+    custom_params:
+      service_now_table_name: change_request
+      service_now_column_name: type
+

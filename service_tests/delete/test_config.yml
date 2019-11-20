@@ -1,0 +1,9 @@
+---
+environments:
+- name: Test
+  domain: example.com
+  foundations:
+  - api1.example.com
+  - api2.example.com
+  - api3.example.com
+  - api4.example.com
